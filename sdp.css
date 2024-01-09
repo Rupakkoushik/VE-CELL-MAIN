@@ -1,0 +1,67 @@
+body {
+    color: black;
+    overflow-x: hidden;-
+}
+
+header::before {
+    content: '';
+    background-image: url('ve.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    filter: blur(3px);
+}
+header{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+    
+   
+}
+header h1{
+    font-weight: 100;
+    
+}
+.sdp ul{
+    list-style: none;
+}
+.sdp a{
+    text-decoration: none;
+    line-height: 20px;
+}
+
+
+
+.sdp-item {
+    text-decoration: none;
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.sdp-item:hover{
+transform: perspective(0.3px) translateZ(0.07px);
+transform: translateX(4px);
+transition: all 0.1s ease-in;
+}
+
+.sdp a:not(:hover){
+    transition: all 0.3s ease-out;
+}
+
+
+
+li {
+    padding: 30px;
+}
