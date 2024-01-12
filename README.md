@@ -1,1 +1,1 @@
-File contain the information related to the workshop on "Understanding the cience of relationship through self exploration"
+File contain the information related to the workshop on Understanding the cience of relationship through self exploration
