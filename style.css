@@ -226,7 +226,78 @@ hr {
   
 }
 .footer{
-    color: transparent;
+    margin-top: 150px;
+    width: 100%;
+    max-height: 400px;
+    padding: 100px 15%;
+    background:#22252c;
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 4px #FAC805;
+    border-radius: 9px;
+    margin-bottom: 0%;
+    box-sizing: border-box;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icon{
+    margin-top: 3px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.copyright{ 
+    width: 100%; 
+    text-align: center; 
+    padding: 25px 0; 
+    background: #262626; 
+    font-weight: 300; 
+    margin-top: 20px; 
+} 
+.copyright i{ 
+    color: #ff004f; 
+} 
+#msg{ 
+    color: #61b752; 
+    margin-top: -40px; 
+    display: block; 
 }
 
 
